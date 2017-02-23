@@ -8,10 +8,10 @@ var trabajadorLaboratoria = [ { nombre : "Arabela", apellido : "Rojas", rol : "T
 							  { nombre : "Gian", apellido : "Corzo", rol : "Profesor", cumpleanios : "23 de enero" } ];
 
 
- trabajadorLaboratoria.forEach(function(e){ a += "<ul><li>" + "Nombre: " + e.nombre + "</li>" +
-														 "<li>"	+ "Apellido: " + e.apellido + "</li>" +
-														 "<li>" + "Rol: " + e.rol + "</li>" +
-														 "<li>" + "Cumpleaños: " + e.cumpleanios + "</li></ul>";
+ trabajadorLaboratoria.forEach(function(e){ a += "<ul><li>" + "<b>" + "Nombre: " +"</b>" + e.nombre + "</li>" +
+														 "<li>"	+ "<b>" + "Apellido: " + "</b>" + e.apellido + "</li>" +
+														 "<li>" + "<b>" + "Rol: " + "</b>" +  e.rol + "</li>" +
+														 "<li>" + "<b>" +"Cumpleaños: " + "</b>" + e.cumpleanios + "</li></ul>";
 
 														records.innerHTML = a; 
 
