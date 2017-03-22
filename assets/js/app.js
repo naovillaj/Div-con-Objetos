@@ -9,13 +9,15 @@ var trabajadorLaboratoria = [ { nombre : "Arabela", apellido : "Rojas", rol : "T
 
 
  trabajadorLaboratoria.forEach(function(e){ a += "<ul><li>" + "<b>" + "Nombre: " +"</b>" + e.nombre + "</li>" +
-														 "<li>"	+ "<b>" + "Apellido: " + "</b>" + e.apellido + "</li>" +
-														 "<li>" + "<b>" + "Rol: " + "</b>" +  e.rol + "</li>" +
-														 "<li>" + "<b>" +"Cumpleaños: " + "</b>" + e.cumpleanios + "</li></ul>";
+													 "<li>"	+ "<b>" + "Apellido: " + "</b>" + e.apellido + "</li>" +
+													 "<li>" + "<b>" + "Rol: " + "</b>" +  e.rol + "</li>" +
+													 "<li>" + "<b>" +"Cumpleaños: " + "</b>" + e.cumpleanios + "</li></ul>";
 
-														records.innerHTML = a; 
+														
 
 														});
+
+ records.innerHTML = a; 
 
  
 
